@@ -42,4 +42,15 @@
     <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
     <string name="htsr_enable_summary_not_supported">Increase Touch Responsiveness is currently not supported by the kernel</string>
 
+    <!-- HBM settings -->
+    <string name="hbm_fragment_title">High brightness mode</string>
+    <string name="hbm_fragment_summary">Settings for HBM</string>
+    <string name="hbm_mode_title">HBM</string>
+    <string name="hbm_mode_summary">Enable peak luminance</string>
+    <string name="auto_hbm_title">Automatic HBM</string>
+    <string name="auto_hbm_summary">Enable peak luminance based on sunlight</string>
+    <string name="auto_hbm_threshold_title"></string>
+    <string name="auto_hbm_threshold_summary">threshold (lux)</string>
+    <string name="hbm_mode_warning">Long time usage of High brightness mode may damage your display</string>
+
 </resources>
