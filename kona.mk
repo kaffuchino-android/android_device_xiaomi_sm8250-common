@@ -389,6 +389,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.xiaomi-awinic
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
