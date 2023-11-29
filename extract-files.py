@@ -32,6 +32,11 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
         .regex_replace('dolby', 'default1'),
+    (
+        'vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service',
+        'vendor/bin/hw/vendor.dolby.media.c2@1.0-service', 
+    ): blob_fixup()
+        .add_needed('libstagefright_foundation-v33.so'),
 }  # fmt: skip
 
 
