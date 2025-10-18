@@ -34,7 +34,11 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('dolby', 'default1'),
     (
         'vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service',
-        'vendor/bin/hw/vendor.dolby.media.c2@1.0-service', 
+        'vendor/bin/hw/vendor.dolby.media.c2@1.0-service',
+        'vendor/lib64/libdlbdsservice.so',
+        'vendor/lib64/libdlbpreg.so',
+        'vendor/lib64/soundfx/libdlbvol.so',
+        'vendor/lib64/soundfx/libhwdap.so' ,
     ): blob_fixup()
         .add_needed('libstagefright_foundation-v33.so'),
 }  # fmt: skip
