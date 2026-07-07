@@ -193,7 +193,7 @@ ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     libudfpshandler
 
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_extension.xiaomi)
+$(call soong_config_set,surfaceflinger,udfps_lib,//vendor/hardware/xiaomi:libudfps_extension.xiaomi)
 endif
 endif
 
@@ -353,7 +353,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/xiaomi \
+    vendor/hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
 
 # Telephony
